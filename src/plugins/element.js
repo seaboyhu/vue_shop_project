@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { Button, Tooltip } from 'element-ui'
+import { Button } from 'element-ui'
 import { Form, FormItem } from 'element-ui'
 import { Input } from 'element-ui'
 //导入弹框提示组件
@@ -20,7 +20,9 @@ Switch,
 tooltip, 
 pagination, 
 Dialog,
-MessageBox } from 'element-ui'//tooltip要小xie
+MessageBox } from 'element-ui'//tooltip要小写
+
+import { tag, Tree, Select, Option} from 'element-ui'//tag要小写
 
 Vue.use(Button)
 
@@ -49,6 +51,10 @@ Vue.use(tooltip)
 Vue.use(pagination)
 Vue.use(Dialog)
 
+Vue.use(tag)
+Vue.use(Tree)
+Vue.use(Select)
+Vue.use(Option)
 
 //Message和其他不一样，需要进行全局挂载
 Vue.prototype.$message = Message
