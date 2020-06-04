@@ -22,7 +22,7 @@ pagination,
 Dialog,
 MessageBox } from 'element-ui'//tooltip要小写
 
-import { tag, Tree, Select, Option} from 'element-ui'//tag要小写
+import { tag, Tree, Select, Option, Cascader} from 'element-ui'//tag要小写
 
 Vue.use(Button)
 
@@ -55,6 +55,7 @@ Vue.use(tag)
 Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
+Vue.use(Cascader)
 
 //Message和其他不一样，需要进行全局挂载
 Vue.prototype.$message = Message
