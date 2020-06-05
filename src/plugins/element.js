@@ -24,6 +24,8 @@ MessageBox } from 'element-ui'//tooltip要小写
 
 import { tag, Tree, Select, Option, Cascader} from 'element-ui'//tag要小写
 
+import { Alert,Tabs, TabPane } from 'element-ui'
+
 Vue.use(Button)
 
 Vue.use(Form)//从官网下载之后需要在上面import导入之后再这里引用全局
@@ -56,6 +58,10 @@ Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
 Vue.use(Cascader)
+
+Vue.use(Alert)
+Vue.use(Tabs)
+Vue.use(TabPane)
 
 //Message和其他不一样，需要进行全局挂载
 Vue.prototype.$message = Message
