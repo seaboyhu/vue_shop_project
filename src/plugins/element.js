@@ -26,6 +26,7 @@ import { tag, Tree, Select, Option, Cascader} from 'element-ui'//tag要小写
 
 import { Alert,Tabs, TabPane,Step, Steps, Checkbox, CheckboxGroup, Upload } from 'element-ui'
 
+
 Vue.use(Button)
 
 Vue.use(Form)//从官网下载之后需要在上面import导入之后再这里引用全局
@@ -67,6 +68,8 @@ Vue.use(Steps)
 Vue.use(Checkbox)
 Vue.use(CheckboxGroup)
 Vue.use(Upload)
+
+
 
 //Message和其他不一样，需要进行全局挂载
 Vue.prototype.$message = Message
